@@ -5,6 +5,7 @@ int flag = 0;
 status read_and_validate(int argc, char *argv[], f_list **head)
 {
 	printf("git test");
+	printf("source_tree test on 10th of jan ");
 	for (int i = 1; i < argc; i++)
 	{
 		if (open_files(argv[i]) == e_success)
